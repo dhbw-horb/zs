@@ -6,8 +6,9 @@ Falls die Datei nicht da ist oder ein Teil fehlt wird dieser beim
 Start abgefragt.
 
 $HOME/.zerberus:
-  username=i08..
-  password=mypass
+
+   username=i08..
+   password=mypass
 
 
 Buildprozess
