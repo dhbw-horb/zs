@@ -1,0 +1,25 @@
+Konfiguration
+=============
+Eine Datei ".zerberus" im $HOME des Benutzers enthält den Login.
+
+Falls die Datei nicht da ist oder ein Teil fehlt wird dieser beim
+Start abgefragt.
+
+$HOME/.zerberus:
+  username=i08..
+  password=mypass
+
+
+Buildprozess
+============
+maven2
+
+  $ mvn clean package assembly:assembly
+
+erstellt unter target/ ein normales .jar , eines with-dependencies.
+
+Eclipse-Integration
+===================
+  $ # ggf. eclipse:configure-workspace -D...
+  $ mvn eclipse:eclipse
+  $ # ggf. mvn eclipse:clean
